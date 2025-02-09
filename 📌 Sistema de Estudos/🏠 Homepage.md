@@ -7,9 +7,9 @@ Este painel fornece uma **visão geral** do seu estudo, destacando as **próxima
 ### 📅 **Próximas Revisões**
 
 ```dataview
-TABLE file.name AS "Tema", proxima_revisao
-FROM "Mapa de Conhecimento" OR "Banco de Erros"
-WHERE proxima_revisao <= date(today)
+TABLE file.name AS "Tema", proxima_revisao 
+FROM "Simulados/Banco de Erros" OR "Simulados/Mapa de Conhecimento" 
+WHERE proxima_revisao <= date(today) 
 SORT proxima_revisao ASC
 ```
 
@@ -18,9 +18,9 @@ SORT proxima_revisao ASC
 ### ❌ **Erros a Revisar**
 
 ```dataview
-TABLE file.name AS "Erro", dificuldade, proxima_revisao
-FROM "Banco de Erros"
-WHERE status = "Precisa Revisão"
+TABLE file.name AS "Erro", dificuldade, proxima_revisao 
+FROM "Simulados/Banco de Erros" 
+WHERE status = "Precisa Revisão" 
 SORT dificuldade DESC, proxima_revisao ASC
 ```
 
@@ -29,8 +29,7 @@ SORT dificuldade DESC, proxima_revisao ASC
 ### 🎯 **Últimos Simulados**
 
 ```dataview
-TABLE file.name AS "Simulado", data, desempenho, principais_erros
-FROM "Simulados"
+TABLE file.name AS "Simulado", data, acertos, erros, desempenho, materias_dificeis FROM "Simulados" 
 SORT data DESC
 ```
 

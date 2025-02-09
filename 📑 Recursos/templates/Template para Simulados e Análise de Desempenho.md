@@ -6,7 +6,9 @@ data: <% tp.date.now("YYYY-MM-DD") %>
 acertos:
 erros:
 desempenho:
-materias_dificeis: []
+materias_dificeis: 
+-
+-
 status: Analisado
 ---
 

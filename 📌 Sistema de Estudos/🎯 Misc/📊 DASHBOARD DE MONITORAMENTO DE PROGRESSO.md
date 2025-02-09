@@ -12,10 +12,10 @@ Este painel fornece uma visão geral do seu desempenho por matéria, permitindo 
 ### 📈 **Média de Acertos nos Últimos Simulados**
 
 ```dataview
-TABLE file.name AS "Simulado", data, desempenho
-FROM "Simulados"
-WHERE desempenho != null
-SORT data DESC
+TABLE file.name AS "Simulado", data, desempenho 
+FROM "Simulados" 
+WHERE desempenho 
+SORT data DESC 
 LIMIT 5
 ```
 
@@ -26,10 +26,10 @@ LIMIT 5
 ### 🔄 **Erros Mais Recorrentes**
 
 ```dataview
-TABLE file.name AS "Erro", assunto, dificuldade, ultima_revisao
-FROM "Banco de Erros"
-WHERE status = "Precisa Revisão" AND dificuldade != null
-SORT dificuldade DESC, ultima_revisao ASC
+TABLE file.name AS "Erro", assunto, dificuldade, ultima_revisao 
+FROM "Simulados/Banco de Erros" 
+WHERE status = "Precisa Revisão" AND dificuldade 
+SORT dificuldade DESC, ultima_revisao ASC 
 LIMIT 5
 ```
 
@@ -40,9 +40,9 @@ LIMIT 5
 ### 📅 **Revisões Pendentes por Matéria**
 
 ```dataview
-TABLE file.name AS "Tema", proxima_revisao
-FROM "Mapa de Conhecimento"
-WHERE proxima_revisao != null AND proxima_revisao <= date(today)
+TABLE file.name AS "Tema", proxima_revisao 
+FROM "Simulados/Mapa de Conhecimento" 
+WHERE proxima_revisao <= date(today) 
 SORT proxima_revisao ASC
 ```
 

@@ -9,7 +9,7 @@ data_erro: <% tp.date.now("YYYY-MM-DD") %>
 ultima_revisao: <% tp.date.now("YYYY-MM-DD") %>
 proxima_revisao: <% moment().add(7, "days").format("YYYY-MM-DD") %>
 segunda_revisão: <% moment().add(30, "days").format("YYYY-MM-DD") %>
-status: Precisa
+status:
 ---
 
 
