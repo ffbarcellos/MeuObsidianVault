@@ -13,7 +13,7 @@ Este painel fornece uma visão geral do seu desempenho por matéria, permitindo 
 
 ```dataview
 TABLE file.name AS "Simulado", data, desempenho 
-FROM "Simulados" 
+FROM "Sistema de Estudos/Simulados" 
 WHERE desempenho 
 SORT data DESC 
 LIMIT 5
@@ -26,11 +26,9 @@ LIMIT 5
 ### 🔄 **Erros Mais Recorrentes**
 
 ```dataview
-TABLE file.name AS "Erro", assunto, dificuldade, ultima_revisao 
-FROM "Simulados/Banco de Erros" 
-WHERE status = "Precisa Revisão" AND dificuldade 
-SORT dificuldade DESC, ultima_revisao ASC 
-LIMIT 5
+TABLE file.name AS "Erro", status
+FROM "Sistema de Estudos/Banco de Erros"
+WHERE status = "Precisa Revisão"
 ```
 
 📌 **Dica:** Se um erro aparece repetidamente, ele **precisa ser resolvido urgentemente**.
@@ -41,8 +39,11 @@ LIMIT 5
 
 ```dataview
 TABLE file.name AS "Tema", proxima_revisao 
-FROM "Simulados/Mapa de Conhecimento" 
-WHERE proxima_revisao <= date(today) 
+FROM "Sistema de Estudos/Mapa de Conhecimento" 
+	OR "Sistema de Estudos/Banco de Erros" 
+	OR "Sistema de Estudos/Simulados" 
+WHERE proxima_revisao 
+	AND proxima_revisao <= date(today) 
 SORT proxima_revisao ASC
 ```
 

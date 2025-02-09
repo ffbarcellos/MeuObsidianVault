@@ -12,7 +12,7 @@ data_erro: 2025-02-09
 ultima_revisao: 2025-02-09
 proxima_revisao: 2025-02-16
 segunda_revisão: 2025-03-11
-status: Precisa
+status: Precisa Revisão
 ---
 
 
