@@ -1,0 +1,267 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "4509724f8bf84da7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📌 Sistema de Estudos/🎯 Misc/📊 DASHBOARD DE MONITORAMENTO DE PROGRESSO.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "📊 DASHBOARD DE MONITORAMENTO DE PROGRESSO"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f412101702ac8f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "70fc59ad75233d86",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22a1740e2f86fac6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "b7d32ee0f5e5afbb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "cd81a762b76e97c0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          },
+          {
+            "id": "a3717aacddfebe71",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5b35bedcea3c0271",
+    "type": "split",
+    "children": [
+      {
+        "id": "6ddf821d5d9c3b2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebc051d2772bdfc2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "teste 3.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos para teste 3"
+            }
+          },
+          {
+            "id": "1ca3c43be545b041",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "teste 3.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída para teste 3"
+            }
+          },
+          {
+            "id": "610cf2ade7dd8872",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5f6f4f98dde6e719",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "teste 3.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário de teste 3"
+            }
+          },
+          {
+            "id": "2bddce25d8c87fc5",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "0ebbf431060a9909",
+            "type": "leaf",
+            "state": {
+              "type": "smart-connections-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
+            }
+          },
+          {
+            "id": "cc084f261fa9914c",
+            "type": "leaf",
+            "state": {
+              "type": "smart-chat-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin desativado"
+            }
+          },
+          {
+            "id": "98b9e2ecd2b1a28f",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Fila de Notas para Revisar"
+            }
+          }
+        ],
+        "currentTab": 7
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "homepage:Open homepage": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-spaced-repetition:Revisar flashcards": false,
+      "random-note:Abrir nota aleatória": false,
+      "templater-obsidian:Templater": false,
+      "smart-connections:Open: View Smart Connections": false,
+      "smart-connections:Open: Smart Chat Conversation": false
+    }
+  },
+  "active": "e7a7b303c61786dc",
+  "lastOpenFiles": [
+    "📌 Sistema de Estudos/🏠 Homepage.md",
+    "📌 Sistema de Estudos/Simulados/Simulado.md",
+    "📌 Sistema de Estudos/Banco de Erros/teste 4.md",
+    "📌 Sistema de Estudos/Banco de Erros/🛑 1️⃣ Banco de Erros – Como Usar.md",
+    "📌 Sistema de Estudos/🎯 Misc/📊 DASHBOARD DE MONITORAMENTO DE PROGRESSO.md",
+    "📌 Sistema de Estudos/Mapa de Conhecimento/teste 1.md",
+    "📑 Recursos/templates/Template para Banco de Erros.md",
+    "📑 Recursos/templates/Template para Diário de Estudos.md",
+    "📑 Recursos/templates/Template para Planejamento Semanal.md",
+    "📑 Recursos/templates/Template para Simulados e Análise de Desempenho.md",
+    "📑 Recursos/templates/Template para Mapa do Conhecimento.md",
+    "📌 Sistema de Estudos/🎯 Misc/📌 ESTRUTURA PADRÃO DE RESUMO.md",
+    "📌 Sistema de Estudos/Planejamento Semanal/Planejamento-2025-02-09.md",
+    "📌 Sistema de Estudos/Diário de Estudos/2025-02-09.md",
+    "📌 Sistema de Estudos/🛑 Banco de Erros/teste 3.md",
+    "testando.md",
+    "📌 Sistema de Estudos/📅 Diário de Estudos/2025-02-08.md",
+    "📌 Sistema de Estudos/🎯 Misc/📌 PLANO DE ESTUDO PERSONALIZADO.md",
+    "📌 Sistema de Estudos/🎯 Misc/📌 GUIA DE GESTÃO MENTAL E FOCO.md",
+    "📌 Sistema de Estudos/🗺️ Mapa de Conhecimento/nova nota.md",
+    "📌 Sistema de Estudos/🎯 Misc/📌 GUIA DE REVISÕES INTELIGENTES.md",
+    "📌 Sistema de Estudos/🎯 Misc/📌 BANCO DE TÉCNICAS DE ESTUDO.md",
+    "📌 Sistema de Estudos/🎯 Misc/📌 MANUAL DE EXECUÇÃO DE SIMULADOS.md",
+    "📌 Sistema de Estudos/🎯 Misc/🔥 SISTEMA DE ALTO DESEMPENHO 🔥.md",
+    "📌 Sistema de Estudos/Sistema Alto Desempenho(1).md",
+    "📌 Sistema de Estudos/Mapa de Conhecimento/🗺️ 3️⃣ Mapa de Conhecimento – Como Usar.md",
+    "📅 Diário de Estudos",
+    "📑 Recursos",
+    "📌 Sistema de Estudos/Planejamento Semanal",
+    "📌 Sistema de Estudos/Simulados",
+    "📌 Sistema de Estudos",
+    "misc/anexos/Pasted image 20250208040736.png",
+    "📑 Recursos/templates",
+    "📑 Recursos/anexos",
+    "📌 Sistema de Estudos/🎯 Misc",
+    "📌 Sistema de Estudos/Mapa de Conhecimento",
+    "📌 Sistema de Estudos/Banco de Erros"
+  ]
+}

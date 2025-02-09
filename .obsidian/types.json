@@ -1,0 +1,12 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "data_erro:": "date",
+    "data": "text",
+    "acertos": "number",
+    "erros": "number",
+    "desempenho": "number"
+  }
+}
